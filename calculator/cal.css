@@ -1,0 +1,71 @@
+   .container{
+ width: 45%;
+height: 45%;
+box-shadow:  12px 12px 20px
+ -12px -12px -20px rgb(86, 86, 2); 
+ margin:0 auto;
+
+ padding:15px;
+ border-bottom:5px solid ;
+ border-radius:10px;	
+ position:relative;
+ background-color: #444;
+ overflow: hidden;
+
+
+}
+
+
+.display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    background:  #bfbfbf;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #bfbfbf,-8px -8px -8px #aaaaaa;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,-5px -5px -8px #ffffff;
+    background-color: black;
+    color:#ecf0f3;
+
+
+}
+ button:hover{
+    box-shadow: inset 5px 5px 8px  rgba(16,16,16,1), inset -5px -5px -8px #fff;
+color: black;
+   background-color:#ecf0f3;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f3 ;
+    font-family: Arial, sans-serif;
+}
+.btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+
+  
